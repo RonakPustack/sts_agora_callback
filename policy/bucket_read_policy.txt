@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+      "Action": [
+        "oss:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": ["acs:oss:*:*:pustack-agora-resource/oss_mobile*"]
+    }
+  ],
+  "Version": "2"
+}
